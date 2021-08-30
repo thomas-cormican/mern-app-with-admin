@@ -1,0 +1,64 @@
+.button {
+  border-radius: 2px;
+  cursor: pointer;
+  border: 0px;
+}
+
+.primary:hover {
+  background-color: #1859dbe5;
+}
+
+.primary,
+.primary:active {
+  background-color: #185adb;
+  color: white;
+}
+
+.dark:hover {
+  background-color: #0a1931e5;
+}
+
+.dark,
+.dark:active {
+  background-color: #0a1931;
+  color: white;
+}
+
+.delete:hover {
+  background-color: #c70039e5;
+}
+
+.delete,
+.delete:active {
+  background-color: #c70039;
+  color: white;
+}
+
+.clear:hover {
+  background-color: #d8d8d8;
+  color: black;
+}
+
+.clear,
+.clear:active {
+  background-color: #eeeeee;
+  color: black;
+}
+
+.small {
+  font-size: 0.8rem;
+  width: 70px;
+  height: 28px;
+}
+
+.medium {
+  font-size: 1rem;
+  width: 80px;
+  height: 32px;
+}
+
+.large {
+  font-size: 1.2rem;
+  width: 100px;
+  height: 40px;
+}
